@@ -80,11 +80,11 @@ Final Performance: R²=0.848, RMSE=0.0897
 
 ### Key Findings - Task 1
 
-✅ **84.8% variance explained** (vs 4.7% baseline - 18x improvement)  
-✅ **CatBoost best single model** due to ordered boosting preventing overfitting  
-✅ **Stacking outperforms voting** - intelligent weighting beats simple averaging  
-✅ **Feature importance**: feat_217 (28.5%), feat_184 (25.9%), feat_124 (13.0%) dominate  
-✅ **Model generalization validated** - prediction distribution matches training data  
+**84.8% variance explained** (vs 4.7% baseline - 18x improvement)  
+**CatBoost best single model** due to ordered boosting preventing overfitting  
+**Stacking outperforms voting** - intelligent weighting beats simple averaging  
+**Feature importance**: feat_217 (28.5%), feat_184 (25.9%), feat_124 (13.0%) dominate  
+ **Model generalization validated** - prediction distribution matches training data  
 
 ---
 
@@ -162,7 +162,7 @@ else:  # feat_4 > 0.7
 
 Distribution matches training data → Confirms generalizability
 
-### ✅ Edge Device Implementation
+### Edge Device Implementation
 - Uses only: `numpy`, `pandas`, `operator`, `argparse`
 - No ML libraries required at runtime
 - Simple if-else structure with basic arithmetic
@@ -211,8 +211,3 @@ Distribution matches training data → Confirms generalizability
 | Edge Compatible | **Yes** | No ML libraries needed |
 
 
----
-
-## **Quick One-Liner:**
-```
-ML Challenge: Stacking ensemble (R²=0.848) for high-dim regression + interpretable rules (R²=0.915) for edge devices 🚀
