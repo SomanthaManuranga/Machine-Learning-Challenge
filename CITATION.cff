@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Machine Learning Challenge: Stacking Ensemble Regression and Interpretable Rule Discovery"
+type: software
+authors:
+  - family-names: Manuranga
+    given-names: Somantha
+    affiliation: "Ostbayerische Technische Hochschule Amberg-Weiden"
+date-released: 2026-01-12
+repository-code: "https://github.com/SomanthaManuranga/Machine-Learning-Challenge"
+license: MIT
+keywords:
+  - machine learning
+  - stacking ensemble
+  - gradient boosting
+  - Optuna
+  - interpretable machine learning
+  - rule discovery

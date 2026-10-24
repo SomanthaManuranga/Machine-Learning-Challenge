@@ -1,0 +1,5 @@
+*.png binary
+*.pdf binary
+
+# Count the notebooks as Python in GitHub's language bar
+*.ipynb linguist-language=Python

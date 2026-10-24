@@ -1,0 +1,22 @@
+# Challenge data (issued per student, not redistributed)
+*.csv
+!results/EVAL_target01_81.csv
+data/
+
+# Files the notebooks write when run
+notebooks/*.png
+notebooks/framework_81.py
+catboost_info/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
